@@ -58,7 +58,7 @@ class MyApp extends StatelessWidget {
                       fontFamily: 'Source Sans Pro',
                     ),
                   ),
-                )),
+                ),),
             Card(
               margin: EdgeInsets.symmetric(vertical: 10, horizontal: 25),
               child: ListTile(
