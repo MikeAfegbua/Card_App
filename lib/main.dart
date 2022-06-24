@@ -38,27 +38,29 @@ class MyApp extends StatelessWidget {
               ),
             ),
             SizedBox(
-                height: 20,
-                width: 150,
-                child: Divider(
-                  color: Colors.teal.shade100,
-                )),
+              height: 20,
+              width: 150,
+              child: Divider(
+                color: Colors.teal.shade100,
+              ),
+            ),
             Card(
-                margin: EdgeInsets.symmetric(vertical: 10, horizontal: 25),
-                child: ListTile(
-                  leading: Icon(
-                    Icons.phone,
-                    color: Colors.teal,
+              margin: EdgeInsets.symmetric(vertical: 10, horizontal: 25),
+              child: ListTile(
+                leading: Icon(
+                  Icons.phone,
+                  color: Colors.teal,
+                ),
+                title: Text(
+                  '08123266902',
+                  style: TextStyle(
+                    fontSize: 20,
+                    color: Colors.teal.shade900,
+                    fontFamily: 'Source Sans Pro',
                   ),
-                  title: Text(
-                    '08123266902',
-                    style: TextStyle(
-                      fontSize: 20,
-                      color: Colors.teal.shade900,
-                      fontFamily: 'Source Sans Pro',
-                    ),
-                  ),
-                ),),
+                ),
+              ),
+            ),
             Card(
               margin: EdgeInsets.symmetric(vertical: 10, horizontal: 25),
               child: ListTile(
