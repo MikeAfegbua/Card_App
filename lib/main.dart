@@ -18,14 +18,20 @@ class MyApp extends StatelessWidget {
               radius: 50,
               backgroundImage: AssetImage('images/mike.jpg'),
             ),
+            SizedBox(
+              height: 20,
+            ),
             Text(
-              "Michael G",
+              "Micheal Okhaimoh",
               style: TextStyle(
                 fontFamily: 'Pacifico',
-                fontSize: 40,
+                fontSize: 30,
                 fontWeight: FontWeight.bold,
                 color: Colors.white,
               ),
+            ),
+            SizedBox(
+              height: 20,
             ),
             Text(
               "FLUTTER DEVELOPER",
@@ -39,7 +45,7 @@ class MyApp extends StatelessWidget {
             ),
             SizedBox(
               height: 20,
-              width: 150,
+              width: 250,
               child: Divider(
                 color: Colors.teal.shade100,
               ),
